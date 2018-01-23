@@ -33,3 +33,5 @@ phpdoc-*
 
 logs/*
 config.php
+test.php
+test.xml
