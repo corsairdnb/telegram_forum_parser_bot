@@ -20,10 +20,7 @@ class ParseCommand extends SystemCommand
 
     public function execute()
     {
-//        $message = $this->getMessage();
-//        $chat_id = $message->getChat()->getId();
-//        $chat_id = 108894177;
-        $chat_id = 329853602;
+        $chat_id = REPORT_CHAT_ID;
 
         $text    = 'Parse result:';
 

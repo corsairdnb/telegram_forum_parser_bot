@@ -7,6 +7,7 @@ use Longman\TelegramBot\TelegramLog as Log;
 $config = require 'config.php';
 
 define('API_KEY', $config['API_KEY']);
+define('REPORT_CHAT_ID', $config['REPORT_CHAT_ID']);
 
 $BOT_NAME = $config['BOT_NAME'];
 
